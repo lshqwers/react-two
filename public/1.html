@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+            var str='absbaqdadsd'
+            console.log(str.split('').join())
+            var m=[1]
+            console.log(Array.isArray(m))
+
+            // 判断字母出现多少次
+            function t8(str1){
+                var ret={};
+                var value;
+                for(var i=0;i<str1.length;i++){
+                    //  chatAt()从字符串返回一个字符串
+                    value=str1.charAt(i);
+                    // 判断字符串ret对象是否存在,将数字加1
+                    if(ret[value]){
+                        ret[value]++
+                    }else{
+                    // 不存在情况 ret对象上添加该属性,属性值=1
+                        ret [value]=1;
+                    }
+                }
+                // for in 是遍历对象的
+                for(var j in ret){
+                    /*
+                         document.write(j+'出现的次数'+ret[j]+'次'+<br/>)
+                         错误<br/>没有加字符串
+                    */
+                    document.write(j+'出现的次数'+ret[j]+'次'+"<br/>")
+                }
+            }
+            // 调用该函数
+            t8('abcdeabcdeffhhh')
+        </script>
+</body>
+</html>

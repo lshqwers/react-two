@@ -1,0 +1,39 @@
+#components-layout-demo-top-side-2 .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+  }
+  .ant-menu{
+    background:#001529;
+    color: #fff;
+  }
+  .site-layout-background {
+    background: #fff;
+  }
+  .qf-sider{
+    width: 150px !important;
+  }
+  .ant-layout-sider {
+    height:600px;
+    background-color: #fff;
+    min-width: 0px;
+    width: 0px;
+    flex:0px;
+  }
+  .ant-menu .ant-menu-light .ant-menu-root .ant-menu-inline{
+    width: 0px;
+    flex:0px;
+    max-width: 0px;
+    min-width: 150px !important;
+  }
+  .ant-layout-sider .ant-layout-sider-dark{
+    width: 0px;
+    flex:0px;
+    max-width: 0px;
+    min-width: 150px !important;
+  }
+.ant-layout{
+   background: #fff !important;
+}
